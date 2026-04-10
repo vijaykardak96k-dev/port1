@@ -1,0 +1,12 @@
+name: My First CI Pipeline
+
+on: 
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello Vijay, your GitHub Action is working!"
